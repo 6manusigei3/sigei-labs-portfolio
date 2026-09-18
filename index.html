@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#070a10" />
+  <meta name="description" content="Sigei Labs — Emmanuel Kipchumba Sigei's cybersecurity, AI security, software systems and blockchain portfolio." />
+  <title>Sigei Labs — Security, AI & Software Systems</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles/base.css" />
+  <link rel="stylesheet" href="styles/hero.css" />
+  <link rel="stylesheet" href="styles/projects.css" />
+  <link rel="stylesheet" href="styles/sections.css" />
+  <link rel="stylesheet" href="styles/modal-responsive.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="mouse-glow" id="mouseGlow" aria-hidden="true"></div>
+
+  <header class="nav-wrap">
+    <nav class="nav shell" aria-label="Primary navigation">
+      <a href="#top" class="brand" aria-label="Sigei Labs home">
+        <span class="brand-mark">SL<span>X</span></span>
+        <span class="brand-copy"><b>SIGEI LABS</b><small>SECURITY · AI · SYSTEMS</small></span>
+      </a>
+      <div class="nav-links" id="navLinks">
+        <a href="#work">Work</a>
+        <a href="#timeline">Timeline</a>
+        <a href="#capabilities">Capabilities</a>
+        <a href="#about">About</a>
+      </div>
+      <a class="nav-cta" href="#contact">Let’s connect <span>↗</span></a>
+      <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="navLinks" aria-label="Toggle navigation">☰</button>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero shell">
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="pulse-dot"></span> BUILDING SECURE SYSTEMS FROM NAIROBI, KENYA</div>
+        <h1>Systems that <em>think.</em><br/>Security that <em>enforces.</em><br/>Software that <em>endures.</em></h1>
+        <p class="hero-sub">I’m <strong>Emmanuel Kipchumba Sigei</strong> — a Computer Science student and cybersecurity builder creating security platforms, AI-governance systems, full-stack products, distributed systems and blockchain experiments.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#work">Explore the work <span>↓</span></a>
+          <a class="btn btn-ghost" href="https://github.com/6manusigei3" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+        </div>
+        <div class="hero-proof">
+          <div><b>3</b><span>Flagship security platforms</span></div>
+          <div><b>20+</b><span>Projects & experiments</span></div>
+          <div><b>AI × SEC</b><span>Current engineering focus</span></div>
+        </div>
+      </div>
+
+      <div class="hero-visual reveal" data-delay="120" aria-label="Abstract security architecture visualization">
+        <div class="orbital-card">
+          <div class="orbital-top"><span>SLX // SYSTEM MAP</span><span class="live">LIVE</span></div>
+          <div class="orbital-scene">
+            <div class="orbit orbit-1"></div>
+            <div class="orbit orbit-2"></div>
+            <div class="orbit orbit-3"></div>
+            <div class="core"><span>S</span><small>SECURE</small></div>
+            <span class="node n1">IDENTITY</span>
+            <span class="node n2">POLICY</span>
+            <span class="node n3">AUDIT</span>
+            <span class="node n4">DETECT</span>
+            <span class="node n5">AI</span>
+            <span class="node n6">DATA</span>
+          </div>
+          <div class="orbital-bottom">
+            <span>ZERO-TRUST MINDSET</span>
+            <span>HUMAN-REVIEWED AI</span>
+            <span>AUDITABLE BY DESIGN</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="marquee" aria-label="Technology highlights">
+      <div class="marquee-track">
+        <span>FASTAPI</span><i>✦</i><span>NEXT.JS</span><i>✦</i><span>POSTGRESQL</span><i>✦</i><span>RABBITMQ</span><i>✦</i><span>SUPABASE</span><i>✦</i><span>JWT / RBAC</span><i>✦</i><span>AI SECURITY</span><i>✦</i><span>THREAT INTELLIGENCE</span><i>✦</i><span>SOLIDITY</span><i>✦</i>
+        <span>FASTAPI</span><i>✦</i><span>NEXT.JS</span><i>✦</i><span>POSTGRESQL</span><i>✦</i><span>RABBITMQ</span><i>✦</i><span>SUPABASE</span><i>✦</i><span>JWT / RBAC</span><i>✦</i><span>AI SECURITY</span><i>✦</i><span>THREAT INTELLIGENCE</span><i>✦</i><span>SOLIDITY</span><i>✦</i>
+      </div>
+    </section>
+
+    <section class="section shell" id="work">
+      <div class="section-head reveal">
+        <div>
+          <span class="kicker">01 // SELECTED WORK</span>
+          <h2>Flagship systems</h2>
+        </div>
+        <p>Security-heavy builds where architecture, authorization, evidence, auditability and real operational workflows matter as much as the interface.</p>
+      </div>
+
+      <div class="flagship-grid" id="flagshipGrid"></div>
+    </section>
+
+    <section class="section shell archive-section">
+      <div class="section-head reveal">
+        <div>
+          <span class="kicker">02 // PROJECT CONSTELLATION</span>
+          <h2>Beyond the flagships</h2>
+        </div>
+        <p>AI, blockchain, OSINT, full-stack systems, distributed systems and the smaller experiments that built the foundation.</p>
+      </div>
+
+      <div class="filter-row reveal" id="filterRow">
+        <button class="filter active" data-filter="all">All</button>
+        <button class="filter" data-filter="security">Security</button>
+        <button class="filter" data-filter="ai">AI</button>
+        <button class="filter" data-filter="software">Software</button>
+        <button class="filter" data-filter="distributed">Distributed</button>
+        <button class="filter" data-filter="blockchain">Blockchain</button>
+        <button class="filter" data-filter="learning">Learning Lab</button>
+      </div>
+      <div class="project-grid" id="projectGrid"></div>
+
+      <details class="repo-archive reveal">
+        <summary><span>Repository archive</span><small>Earlier exercises, coursework and experiments ↘</small></summary>
+        <div class="repo-cloud" id="repoCloud"></div>
+      </details>
+    </section>
+
+    <section class="section shell" id="timeline">
+      <div class="section-head reveal">
+        <div>
+          <span class="kicker">03 // BUILD EVOLUTION</span>
+          <h2>The engineering arc</h2>
+        </div>
+        <p>The portfolio is not a random stack of apps. Each stage pushed the next one toward more systems thinking, more security and stronger engineering discipline.</p>
+      </div>
+
+      <div class="timeline reveal">
+        <div class="timeline-line"></div>
+        <article><span>01</span><div><small>FOUNDATIONS</small><h3>Web & application logic</h3><p>Forms, validation, CRUD, PHP/MySQL systems, front-end interaction and data handling.</p></div></article>
+        <article><span>02</span><div><small>SECURITY EXPLORATION</small><h3>OSINT & cyber tooling</h3><p>Light My Candle centralized investigation resources and introduced a security-first project identity.</p></div></article>
+        <article><span>03</span><div><small>DISTRIBUTED SYSTEMS</small><h3>Queues, workers & webhooks</h3><p>RabbitMQ, inventory synchronization and asynchronous event processing through Northstar and Solstice.</p></div></article>
+        <article><span>04</span><div><small>PRODUCT ENGINEERING</small><h3>Role-aware full-stack workflows</h3><p>Reflex combined Next.js, FastAPI, PostgreSQL, WebSockets, maps, notifications and controlled state transitions.</p></div></article>
+        <article><span>05</span><div><small>DEFENSIVE SECURITY</small><h3>SOC engineering</h3><p>SentraX moved the portfolio into threat intelligence, investigations, hardening, detection and response workflows.</p></div></article>
+        <article><span>06</span><div><small>AI SECURITY</small><h3>Runtime governance</h3><p>AegraX treated AI agents as identities that must be authorized, constrained, audited and investigated.</p></div></article>
+        <article><span>07</span><div><small>INTELLIGENCE SYSTEMS</small><h3>Secure analytical operations</h3><p>NexoraX combined clearance-aware records, evidence, graph analysis and grounded AI with explicit human-review boundaries.</p></div></article>
+      </div>
+    </section>
+
+    <section class="section capability-section" id="capabilities">
+      <div class="shell">
+        <div class="section-head reveal">
+          <div>
+            <span class="kicker">04 // CAPABILITIES</span>
+            <h2>What the work demonstrates</h2>
+          </div>
+          <p>Grouped by engineering outcome rather than a wall of logos.</p>
+        </div>
+        <div class="capability-grid">
+          <article class="cap reveal"><span>SEC</span><h3>Security Engineering</h3><p>JWT/JWKS, RBAC, multi-tenancy, RLS, policy enforcement, audit trails, threat intelligence, detection engineering, evidence integrity.</p><div class="chips"><b>Zero Trust</b><b>Fail Closed</b><b>Auditability</b></div></article>
+          <article class="cap reveal" data-delay="70"><span>SYS</span><h3>Software & Systems</h3><p>Python, FastAPI, Flask, PHP, Next.js, React, PostgreSQL, Supabase, APIs, background workers and state-machine workflows.</p><div class="chips"><b>Full Stack</b><b>APIs</b><b>Data</b></div></article>
+          <article class="cap reveal" data-delay="140"><span>AI</span><h3>AI Security & Governance</h3><p>Agent identity, runtime authorization, deterministic policy, human approvals, grounded retrieval, citation-backed output and responsible-use boundaries.</p><div class="chips"><b>Agent Security</b><b>Grounding</b><b>Human Review</b></div></article>
+          <article class="cap reveal" data-delay="210"><span>REL</span><h3>Reliability & Delivery</h3><p>RabbitMQ, Redis Streams, webhooks, retries, idempotency, replay protection, migrations, health/readiness, typed builds and automated testing.</p><div class="chips"><b>Async</b><b>Resilience</b><b>Quality</b></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section shell about" id="about">
+      <div class="about-card reveal">
+        <div class="about-index">05</div>
+        <div class="about-main">
+          <span class="kicker">ABOUT THE BUILDER</span>
+          <h2>Security-minded by default.<br/>Curious by design.</h2>
+          <p>I’m Emmanuel Kipchumba Sigei, a BSc Computer Science student focused on cybersecurity, secure software, AI-agent security, Linux, networking and practical defensive engineering.</p>
+          <p>I learn by building systems that force me to understand the boundary between <strong>“it works”</strong> and <strong>“it is safe, explainable and defensible.”</strong></p>
+          <div class="about-links">
+            <a href="https://github.com/6manusigei3" target="_blank" rel="noreferrer">GitHub ↗</a>
+            <a href="https://www.linkedin.com/in/emmanuel-kipchumba-16925b3ab" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+            <a href="mailto:kipchumbaemmanuel061@gmail.com">Email ↗</a>
+          </div>
+        </div>
+        <div class="about-terminal" aria-label="Terminal style profile card">
+          <div class="term-bar"><i></i><i></i><i></i><span>emmanuel@sigei-labs</span></div>
+          <pre><code><span>$</span> whoami
+Emmanuel Kipchumba Sigei
+
+<span>$</span> focus --current
+cybersecurity
+ai-security
+secure-systems
+
+<span>$</span> mindset
+"Build it. Break assumptions.
+ Secure the boundary.
+ Prove the behavior."
+
+<span>$</span> status
+<span class="term-green">● building</span></code></pre>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="shell contact-inner reveal">
+        <span class="kicker">06 // CONTACT</span>
+        <h2>Have a security problem,<br/>a system idea, or a hard question?</h2>
+        <p>I’m building toward cybersecurity and secure-systems roles where engineering depth matters.</p>
+        <div class="contact-actions">
+          <a class="btn btn-primary" href="mailto:kipchumbaemmanuel061@gmail.com">Send an email <span>↗</span></a>
+          <a class="btn btn-ghost" href="https://github.com/6manusigei3" target="_blank" rel="noreferrer">Browse GitHub <span>↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="shell footer-inner">
+      <div class="brand footer-brand"><span class="brand-mark">SL<span>X</span></span><span class="brand-copy"><b>SIGEI LABS</b><small>SECURITY · AI · SYSTEMS</small></span></div>
+      <p>Designed around real projects, real architecture and the engineering story behind them.</p>
+      <span>© 2026 Emmanuel Kipchumba Sigei</span>
+    </div>
+  </footer>
+
+  <dialog class="project-modal" id="projectModal">
+    <button class="modal-close" id="modalClose" aria-label="Close project details">×</button>
+    <div id="modalContent"></div>
+  </dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>
