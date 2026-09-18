@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#070a10" />
+  <meta name="description" content="Projects from Sigei Labs — cybersecurity, AI security, distributed systems, software engineering and blockchain builds." />
+  <title>Projects — Sigei Labs</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="styles/base.css" />
+  <link rel="stylesheet" href="styles/projects.css" />
+  <link rel="stylesheet" href="styles/sections.css" />
+  <link rel="stylesheet" href="styles/modal-responsive.css" />
+  <link rel="stylesheet" href="styles/pages.css" />
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div><div class="mouse-glow" id="mouseGlow" aria-hidden="true"></div>
+  <header class="nav-wrap"><nav class="nav shell" aria-label="Primary navigation">
+    <a href="index.html" class="brand" aria-label="Sigei Labs home"><span class="brand-mark">SL<span>X</span></span><span class="brand-copy"><b>SIGEI LABS</b><small>SECURITY · AI · SYSTEMS</small></span></a>
+    <div class="nav-links" id="navLinks"><a href="index.html">Home</a><a class="active" href="projects.html">Projects</a><a href="journey.html">Journey</a><a href="about.html">About</a></div>
+    <a class="nav-cta" href="about.html#contact">Let’s connect <span>↗</span></a><button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="navLinks" aria-label="Toggle navigation">☰</button>
+  </nav></header>
+
+  <main class="page-main">
+    <section class="page-hero shell reveal">
+      <span class="kicker">PROJECTS // SYSTEMS BUILT</span>
+      <h1>The work,<br/><em>properly explored.</em></h1>
+      <p>From SOC engineering and AI-agent governance to delivery operations, OSINT tooling, blockchain experiments and distributed systems. This is the project library behind Sigei Labs.</p>
+    </section>
+
+    <section class="section shell" id="work">
+      <div class="section-head reveal"><div><span class="kicker">01 // SELECTED WORK</span><h2>Flagship systems</h2></div><p>Security-heavy builds where architecture, authorization, evidence, auditability and operational workflows matter as much as the interface.</p></div>
+      <div class="flagship-grid" id="flagshipGrid"></div>
+    </section>
+
+    <section class="section shell archive-section">
+      <div class="section-head reveal"><div><span class="kicker">02 // PROJECT CONSTELLATION</span><h2>Beyond the flagships</h2></div><p>AI, blockchain, OSINT, full-stack systems, distributed systems and the smaller experiments that built the foundation.</p></div>
+      <div class="filter-row reveal" id="filterRow"><button class="filter active" data-filter="all">All</button><button class="filter" data-filter="security">Security</button><button class="filter" data-filter="ai">AI</button><button class="filter" data-filter="software">Software</button><button class="filter" data-filter="distributed">Distributed</button><button class="filter" data-filter="blockchain">Blockchain</button><button class="filter" data-filter="learning">Learning Lab</button></div>
+      <div class="project-grid" id="projectGrid"></div>
+      <details class="repo-archive reveal"><summary><span>Repository archive</span><small>Earlier exercises, coursework and experiments ↘</small></summary><div class="repo-cloud" id="repoCloud"></div></details>
+    </section>
+  </main>
+
+  <footer><div class="shell footer-inner"><div class="brand footer-brand"><span class="brand-mark">SL<span>X</span></span><span class="brand-copy"><b>SIGEI LABS</b><small>SECURITY · AI · SYSTEMS</small></span></div><p>Projects, architecture and the engineering story behind them.</p><span>© 2026 Emmanuel Kipchumba Sigei</span></div></footer>
+
+  <dialog class="project-modal" id="projectModal"><button class="modal-close" id="modalClose" aria-label="Close project details">×</button><div id="modalContent"></div></dialog>
+  <script src="app.js"></script>
+</body>
+</html>
